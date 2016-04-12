@@ -1,0 +1,122 @@
+* {
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -ms-box-sizing:border-box;
+  -o-box-sizing:border-box;
+  box-sizing:border-box;
+}
+
+.menu-ico {
+  border: solid 0.7rem #1E2A35;
+  width: 3.5rem;
+  height: 3rem;
+  -webkit-border-radius: 0.1rem;
+  -moz-border-radius: 0.1rem;
+  -ms-border-radius: 0.1rem;
+  -o-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #1E2A35;
+  box-shadow: inset 0 2px 0 #FFF, inset 0 -2px 0 #fff, inset 0 -7px 0 #1E2A35, inset 0 -9px 0 #fff;
+}
+
+video {
+	max-width: 100%;
+}
+
+.overflow {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+.iceland-bg {
+	background-image: url(../img/iceland.jpg);
+}
+
+.navbar-default {
+  border-radius: 0;
+}
+
+.navbar-header {
+  width: 100%;
+}
+
+.navbar-header .menu-ico {
+  margin: 1.4rem;
+}
+
+.right {
+  float: right;
+}
+
+p {
+  margin-bottom: 20px;
+}
+
+.navbar-nav>li>a {
+  margin-left: 0!important;
+}
+
+.mg-top {
+  margin-top: 8rem;
+}
+
+.by {
+  width: 100%!important;
+}
+
+.pd-fluid {
+  padding: 0 4rem;
+}
+
+.pd-box-fluid {
+  min-height: 62rem;
+  padding: 4rem;
+}
+
+.category {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 0 4px 4px;
+    border-bottom: solid 4px #3097D1;
+    font-weight: 400;
+}
+
+.title-article {
+  font-size: 3.8rem;
+  margin: 1em 0;
+  line-height: 4.4rem;
+}
+
+.destaque-item-image {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  border-radius: 4px;
+  left:0;
+  z-index: 1;
+}
+
+.destaque-item-image-title {
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  z-index: 2;
+  margin: 2rem;
+  font-size: 3.5rem;
+  padding-right: 8rem;
+}
+
+.destaque-item-image-box {
+  padding: 1px;
+  margin-bottom: 1.5rem;
+  border-radius: 4px;
+  min-height: 300px;
+  position: relative;
+}
+
+.destaque-item-image-box.right-title .destaque-item-image-title {
+  text-align: right;
+  padding-right: 0;
+  padding-left: 8rem;
+}
