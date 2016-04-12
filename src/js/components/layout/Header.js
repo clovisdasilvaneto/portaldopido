@@ -15,7 +15,7 @@ export default class Header extends React.Component{
               <span class="ov"></span>
             </button>
             <a class="e" href="../index.html">
-              <img src="/assets/img/brand-white.png" alt="brand" />
+              <img src="assets/img/brand-white.png" alt="brand" />
             </a>
           </div>
           <div class="f collapse" id="navbar-collapse-main">
@@ -34,7 +34,7 @@ export default class Header extends React.Component{
                 </li>
                 <li>
                   <button class="cg fm ox anl" data-toggle="popover" data-original-title="" title="">
-                    <img class="cu" src="/assets/img/avatar-dhg.png" />
+                    <img class="cu" src="assets/img/avatar-dhg.png" />
                   </button>
                 </li>
               </ul>
